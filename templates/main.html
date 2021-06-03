@@ -1,0 +1,88 @@
+{% extends 'base.html' %}
+{% block title %} Home{% endblock title %}
+{% block body %}
+
+<h1>Businessman Personal Page</h1>
+
+<div class="container">
+    <div class="row">
+        <div class="mb-3">
+            <label for="formFile" class="form-label" style="font-style: italic;">1...Make this place as an upload
+                pictures
+                and
+                6 different pics of 6 deffirent angles...Angles detects by mechine learning...This picture
+                shows off in the page of customer and products pages...It also saves in our server for further using
+                It can be used in advertisement...</label>
+            <input class="form-control" type="file" id="formFile">
+        </div>
+    </div>
+    <p class="text-decoration-underline">2...The description of products within 200 words...</p>
+    <input class="form-control" type="text" id="formgText">
+    <div class="container">
+        <div class="btn-group" role="group" aria-label="First group">
+            <li class="btn btn-outline-secondary">Price (IoT)</li>
+            <li class="btn btn-outline-secondary">Quality (giving by businessman)</li>
+            <li class="btn btn-outline-secondary">date of launch (automated)</li>
+            <li class="btn btn-outline-secondary">product rate (giving by Mechine Learning
+                analysis)</li>
+            <li class="btn btn-outline-secondary">Seller rate (Rate of giving facilities to the
+                customers and activeness in our websites)</li>
+        </div>
+    </div>
+    <form class="row gy-2 gx-3 align-items-center">
+        <div class="col">
+            <li style="height: .5in;">
+                3...Make a portal by which can be sent the bill to the customer
+            </li>
+            <img src="3.jpg" alt="Bill"><a href="/bill">Make a bill</a>
+        </div>
+    </form>
+    <form class="row gy-2 gx-3 align-items-center">
+        <div class="col">
+            <li style="height: 0.5in;">
+                4...Make a portal by which can be made stocks</li><img src="4.jpg" alt="Stocks">
+            <a href="/stocks">Make your stock</a>
+        </div>
+    </form>
+    <ul class="list-group">
+        <li class="list-group-item active" aria-current="true">Excel views of the records and predictions</li>
+        <img src="D:\My Startup\business model\Our Business Model Canvas Solved\Works\Our Products Basic\templates\2.jpg"
+            class="img-fluid">
+        <li class="list-group-item">5...the strategical views which we get from our features...
+            <img src="D:\My Startup\business model\Our Business Model Canvas Solved\Works\Our Products Basic\templates\5.jpg"
+                class="img-fluid">
+        </li>
+        <li class="list-group-item">6...Description of Graphs within 150 words
+            <input class="form-control" type="text" id="formgText">
+        </li>
+        <li class="list-group-item">Review systems(all kind of review based systems which we faced in real life....
+            Happy,Sad,Wow,Like,Dislike,Comment,angry,reports,nausia,slapping)
+        </li>
+    </ul>
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title"><video src="1.png">7...video files of business place</video></h5>
+            <h6 class="card-subtitle mb-2 text-muted">7...video files of business place
+                with Description of videos..</h6>
+            <p class="card-text">That can be 360 views..if the client can....</p>
+            <ul>
+                <li><a href="www.facebook.com" target="_blank" class="card-link">social media link given by businessman.The video posted on the social media sites</a></li>
+                <li><a href="www.gmail.com/mail" class="card-link">mail address or phone number given for communicating.</a>www.gmail.com/mail of the uploader</li>
+                <li class="list-group-item"><a href="/feedback">Build a Feedback System...</a></li>
+            </ul>
+
+        </div>
+    </div>
+    <li class="list-group-item" style="height: 15ch;">
+        8..<a href="/advertisement">advertisement portal</a> : To show advertisement in google veiwers in different customers in
+        deffirent
+        websites</li>
+</div>
+
+<li class="list-group-item" style="height: 15ch;">
+    9..<a class="ChatBot" href="/Chat" target="_blank">Chat with your Clients and Logistic suporters</a> Showing whatsup numbers and 
+    facebook messenger along with mail address for sending mail....
+    </li>
+
+
+{% endblock body %}
